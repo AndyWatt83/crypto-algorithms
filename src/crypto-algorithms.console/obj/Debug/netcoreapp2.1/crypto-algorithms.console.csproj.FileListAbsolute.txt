@@ -1,0 +1,14 @@
+C:\Development\crypto-algorithms\src\crypto-algorithms.console\bin\Debug\netcoreapp2.1\crypto-algorithms.console.deps.json
+C:\Development\crypto-algorithms\src\crypto-algorithms.console\bin\Debug\netcoreapp2.1\crypto-algorithms.console.runtimeconfig.json
+C:\Development\crypto-algorithms\src\crypto-algorithms.console\bin\Debug\netcoreapp2.1\crypto-algorithms.console.runtimeconfig.dev.json
+C:\Development\crypto-algorithms\src\crypto-algorithms.console\bin\Debug\netcoreapp2.1\crypto-algorithms.console.dll
+C:\Development\crypto-algorithms\src\crypto-algorithms.console\bin\Debug\netcoreapp2.1\crypto-algorithms.console.pdb
+C:\Development\crypto-algorithms\src\crypto-algorithms.console\bin\Debug\netcoreapp2.1\crypto-algorithms.customSHA256.dll
+C:\Development\crypto-algorithms\src\crypto-algorithms.console\bin\Debug\netcoreapp2.1\crypto-algorithms.customSHA256.pdb
+C:\Development\crypto-algorithms\src\crypto-algorithms.console\obj\Debug\netcoreapp2.1\crypto-algorithms.console.csprojAssemblyReference.cache
+C:\Development\crypto-algorithms\src\crypto-algorithms.console\obj\Debug\netcoreapp2.1\crypto-algorithms.console.csproj.CoreCompileInputs.cache
+C:\Development\crypto-algorithms\src\crypto-algorithms.console\obj\Debug\netcoreapp2.1\crypto-algorithms.console.AssemblyInfoInputs.cache
+C:\Development\crypto-algorithms\src\crypto-algorithms.console\obj\Debug\netcoreapp2.1\crypto-algorithms.console.AssemblyInfo.cs
+C:\Development\crypto-algorithms\src\crypto-algorithms.console\obj\Debug\netcoreapp2.1\crypto-algorithms.console.csproj.CopyComplete
+C:\Development\crypto-algorithms\src\crypto-algorithms.console\obj\Debug\netcoreapp2.1\crypto-algorithms.console.dll
+C:\Development\crypto-algorithms\src\crypto-algorithms.console\obj\Debug\netcoreapp2.1\crypto-algorithms.console.pdb

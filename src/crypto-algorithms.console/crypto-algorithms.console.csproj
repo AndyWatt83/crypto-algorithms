@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\crypto-algorithms.customSHA256\crypto-algorithms.customSHA256.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>crypto_algorithms.console</RootNamespace>
+  </PropertyGroup>
+
+</Project>
