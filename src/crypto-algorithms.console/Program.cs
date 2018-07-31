@@ -1,4 +1,5 @@
 ﻿using System;
+using crypto_algorithms;
 
 namespace crypto_algorithms.console
 {
@@ -6,7 +7,9 @@ namespace crypto_algorithms.console
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string input = "password";
+            CustomSHA256 SHA = new CustomSHA256();
+            Console.WriteLine(SHA.Hash(input));
         }
     }
 }

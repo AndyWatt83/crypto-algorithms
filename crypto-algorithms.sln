@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "crypto-algorithms.console",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "crypto-algorithms.customSHA256", "src\crypto-algorithms.customSHA256\crypto-algorithms.customSHA256.csproj", "{D72B3039-DC9B-459D-8057-990418051823}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{4B16F453-AF5F-42C4-9179-4BF9BEC6D961}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "crypto-algorithms.tests", "test\crypto-algorithms.tests\crypto-algorithms.tests.csproj", "{ED4C33F9-1C0A-4607-8FD3-32F869B87623}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,9 +50,22 @@ Global
 		{D72B3039-DC9B-459D-8057-990418051823}.Release|x64.Build.0 = Release|Any CPU
 		{D72B3039-DC9B-459D-8057-990418051823}.Release|x86.ActiveCfg = Release|Any CPU
 		{D72B3039-DC9B-459D-8057-990418051823}.Release|x86.Build.0 = Release|Any CPU
+		{ED4C33F9-1C0A-4607-8FD3-32F869B87623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED4C33F9-1C0A-4607-8FD3-32F869B87623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED4C33F9-1C0A-4607-8FD3-32F869B87623}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{ED4C33F9-1C0A-4607-8FD3-32F869B87623}.Debug|x64.Build.0 = Debug|Any CPU
+		{ED4C33F9-1C0A-4607-8FD3-32F869B87623}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{ED4C33F9-1C0A-4607-8FD3-32F869B87623}.Debug|x86.Build.0 = Debug|Any CPU
+		{ED4C33F9-1C0A-4607-8FD3-32F869B87623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED4C33F9-1C0A-4607-8FD3-32F869B87623}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED4C33F9-1C0A-4607-8FD3-32F869B87623}.Release|x64.ActiveCfg = Release|Any CPU
+		{ED4C33F9-1C0A-4607-8FD3-32F869B87623}.Release|x64.Build.0 = Release|Any CPU
+		{ED4C33F9-1C0A-4607-8FD3-32F869B87623}.Release|x86.ActiveCfg = Release|Any CPU
+		{ED4C33F9-1C0A-4607-8FD3-32F869B87623}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{EC27474E-3C97-49A2-AA57-0EDA3F90043B} = {4FB1B435-FC31-4D48-8332-7038A3A72A5C}
 		{D72B3039-DC9B-459D-8057-990418051823} = {4FB1B435-FC31-4D48-8332-7038A3A72A5C}
+		{ED4C33F9-1C0A-4607-8FD3-32F869B87623} = {4B16F453-AF5F-42C4-9179-4BF9BEC6D961}
 	EndGlobalSection
 EndGlobal
