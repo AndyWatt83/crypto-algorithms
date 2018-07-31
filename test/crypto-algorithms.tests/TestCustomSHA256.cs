@@ -4,7 +4,7 @@ using crypto_algorithms;
 
 namespace crypto_algorithms.tests
 {
-    public class UnitTest1
+    public class TestCustomSHA256
     {
         [Fact]
         public void TestAString()
