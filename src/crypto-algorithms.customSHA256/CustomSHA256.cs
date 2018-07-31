@@ -20,7 +20,7 @@ namespace crypto_algorithms
         }
 
         // SHA can encode any byte array, not just strings.
-        public string  Hash(String message)
+        public string Hash(String message)
         {
             _message = message;
 
@@ -28,7 +28,7 @@ namespace crypto_algorithms
 
             this.PadMessage(); //Pad the message to the required input specification for input to the hash algorithm
 
-           return  this.HashAlgorithm(); //Run the hash algorithm.
+           return this.HashAlgorithm(); //Run the hash algorithm.
             //Console.WriteLine("{0:X}-{1:X}-{2:X}-{3:X}-{4:X}-{5:X}-{6:X}-{7:X}", H[0], H[1], H[2], H[3], H[4], H[5], H[6], H[7]);
         }
 
