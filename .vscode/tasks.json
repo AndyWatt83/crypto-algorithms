@@ -10,20 +10,6 @@
                 "${workspaceFolder}/src/crypto-algorithms.console/crypto-algorithms.console.csproj"
             ],
             "problemMatcher": "$msCompile"
-        },
-        {
-            "label": "test",
-            "command": "dotnet",
-            "type": "shell",
-            "group": "test",
-            "args": [
-                "test",
-                "${workspaceFolder}/test/crypto-algorithms.tests/crypto-algorithms.tests.csproj"
-            ],
-            "presentation": {
-                "reveal": "silent"
-            },
-            "problemMatcher": "$msCompile"
         }
     ]
 }
