@@ -1,0 +1,20 @@
+
+notifications:
+  email:
+    recipients:
+      - fake@email.com
+    on_success: never
+    on_failure: always
+
+language: csharp
+
+mono: none
+
+dotnet: 2.1.0
+
+install:
+  - dotnet restore
+
+script:
+  - dotnet build
+  - dotnet test
