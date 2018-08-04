@@ -15,7 +15,20 @@ dotnet: 2.1
 
 install:
   - dotnet restore
+<<<<<<< Updated upstream
 
 script:
   - dotnet build
   - dotnet test
+=======
+  - dotnet tool install -g coveralls.net --version 1.0.0
+  - dotnet add package coverlet.msbuild
+
+
+script:
+  - dotnet build
+  - dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
+
+  after_success:
+  - csmacnz.coveralls --opencover -i ./test/crypto-algorithms.tests/coverage.opencover.xml --useRelativePaths
+>>>>>>> Stashed changes

@@ -18,5 +18,11 @@ namespace crypto_algorithms.tests
 
             Assert.Equal(expected, actual);
         }
+
+        [Fact]
+        public void TestDummy()
+        {
+            Assert.True(true);
+        }
     }
 }
