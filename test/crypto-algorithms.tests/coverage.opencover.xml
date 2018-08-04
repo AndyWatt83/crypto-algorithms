@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession>
+  <Summary numSequencePoints="153" visitedSequencePoints="150" numBranchPoints="153" visitedBranchPoints="150" sequenceCoverage="0.98" branchCoverage="0.98" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="2" numClasses="2" visitedMethods="15" numMethods="16" />
+  <Modules>
+    <Module hash="F3679FA1-F726-4035-AD2D-C1F28CAA8AB8">
+      <ModulePath>C:\Development\crypto-algorithms\test\crypto-algorithms.tests\bin\Debug\netcoreapp2.1\crypto-algorithms.customSHA256.dll</ModulePath>
+      <ModuleTime>2018-08-04T12:06:28</ModuleTime>
+      <ModuleName>crypto-algorithms.customSHA256</ModuleName>
+      <Files>
+        <File uid="1" fullPath="C:\Development\crypto-algorithms\src\crypto-algorithms.customSHA256\CustomSHA256.cs" />
+        <File uid="2" fullPath="C:\Development\crypto-algorithms\src\crypto-algorithms.customSHA256\SHAConstants.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="128" visitedSequencePoints="125" numBranchPoints="20" visitedBranchPoints="20" sequenceCoverage="0.977" branchCoverage="1" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="1" numClasses="1" visitedMethods="13" numMethods="14" />
+          <FullName>crypto_algorithms.CustomSHA256</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String crypto_algorithms.CustomSHA256::Hash(System.String)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" upsid="24" ordinal="0" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="25" ordinal="1" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="27" ordinal="2" sl="27" sc="1" el="27" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="29" ordinal="3" sl="29" sc="1" el="29" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="31" ordinal="4" sl="31" sc="1" el="31" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="33" ordinal="5" sl="33" sc="1" el="33" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="6" upsid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="24" ec="1" el="33" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void crypto_algorithms.CustomSHA256::TransformToByteArray()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" upsid="36" ordinal="0" sl="36" sc="1" el="36" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="37" ordinal="1" sl="37" sc="1" el="37" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="38" ordinal="2" sl="38" sc="1" el="38" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="39" ordinal="3" sl="39" sc="1" el="39" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="4" upsid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="36" ec="1" el="39" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="1" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="41" visitedSequencePoints="41" numBranchPoints="14" visitedBranchPoints="14" sequenceCoverage="1" branchCoverage="1" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void crypto_algorithms.CustomSHA256::PadMessage()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" upsid="42" ordinal="0" sl="42" sc="1" el="42" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="46" ordinal="1" sl="46" sc="1" el="46" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="47" ordinal="2" sl="47" sc="1" el="47" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="48" ordinal="3" sl="48" sc="1" el="48" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="49" ordinal="4" sl="49" sc="1" el="49" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="54" ordinal="5" sl="54" sc="1" el="54" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="55" ordinal="6" sl="55" sc="1" el="55" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="56" ordinal="7" sl="56" sc="1" el="56" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="26" upsid="57" ordinal="8" sl="57" sc="1" el="57" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="12" upsid="58" ordinal="9" sl="58" sc="1" el="58" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="12" upsid="59" ordinal="10" sl="59" sc="1" el="59" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="12" upsid="60" ordinal="11" sl="60" sc="1" el="60" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="3" upsid="61" ordinal="12" sl="61" sc="1" el="61" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="3" upsid="62" ordinal="13" sl="62" sc="1" el="62" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="3" upsid="63" ordinal="14" sl="63" sc="1" el="63" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="3" upsid="64" ordinal="15" sl="64" sc="1" el="64" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="3" upsid="65" ordinal="16" sl="65" sc="1" el="65" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="3" upsid="66" ordinal="17" sl="66" sc="1" el="66" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="3" upsid="67" ordinal="18" sl="67" sc="1" el="67" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="3" upsid="68" ordinal="19" sl="68" sc="1" el="68" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="12" upsid="69" ordinal="20" sl="69" sc="1" el="69" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="12" upsid="70" ordinal="21" sl="70" sc="1" el="70" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="75" ordinal="22" sl="75" sc="1" el="75" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="77" ordinal="23" sl="77" sc="1" el="77" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="4" upsid="78" ordinal="24" sl="78" sc="1" el="78" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="79" ordinal="25" sl="79" sc="1" el="79" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="34" upsid="80" ordinal="26" sl="80" sc="1" el="80" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="16" upsid="81" ordinal="27" sl="81" sc="1" el="81" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="16" upsid="83" ordinal="28" sl="83" sc="1" el="83" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="3" upsid="84" ordinal="29" sl="84" sc="1" el="84" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="3" upsid="85" ordinal="30" sl="85" sc="1" el="85" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="3" upsid="86" ordinal="31" sl="86" sc="1" el="86" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="46" upsid="87" ordinal="32" sl="87" sc="1" el="87" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="4" upsid="88" ordinal="33" sl="88" sc="1" el="88" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="16" upsid="89" ordinal="34" sl="89" sc="1" el="89" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="90" ordinal="35" sl="90" sc="1" el="90" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="91" ordinal="36" sl="91" sc="1" el="91" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="94" ordinal="37" sl="94" sc="1" el="94" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="95" ordinal="38" sl="95" sc="1" el="95" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="96" ordinal="39" sl="96" sc="1" el="96" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="99" ordinal="40" sl="99" sc="1" el="99" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="12" upsid="57" ordinal="5" path="1" offset="182" offsetend="100" sl="57" fileid="1" />
+                <BranchPoint vc="3" upsid="60" ordinal="0" path="0" offset="118" offsetend="120" sl="60" fileid="1" />
+                <BranchPoint vc="3" upsid="62" ordinal="2" path="0" offset="130" offsetend="132" sl="62" fileid="1" />
+                <BranchPoint vc="3" upsid="62" ordinal="3" path="1" offset="130" offsetend="141" sl="62" fileid="1" />
+                <BranchPoint vc="12" upsid="60" ordinal="1" path="1" offset="118" offsetend="158" sl="60" fileid="1" />
+                <BranchPoint vc="1" upsid="57" ordinal="4" path="0" offset="182" offsetend="184" sl="57" fileid="1" />
+                <BranchPoint vc="1" upsid="78" ordinal="13" path="1" offset="373" offsetend="238" sl="78" fileid="1" />
+                <BranchPoint vc="16" upsid="80" ordinal="11" path="1" offset="344" offsetend="244" sl="80" fileid="1" />
+                <BranchPoint vc="3" upsid="83" ordinal="6" path="0" offset="262" offsetend="264" sl="83" fileid="1" />
+                <BranchPoint vc="13" upsid="83" ordinal="7" path="1" offset="262" offsetend="293" sl="83" fileid="1" />
+                <BranchPoint vc="11" upsid="87" ordinal="8" path="0" offset="303" offsetend="305" sl="87" fileid="1" />
+                <BranchPoint vc="2" upsid="87" ordinal="9" path="1" offset="303" offsetend="325" sl="87" fileid="1" />
+                <BranchPoint vc="1" upsid="80" ordinal="10" path="0" offset="344" offsetend="346" sl="80" fileid="1" />
+                <BranchPoint vc="1" upsid="78" ordinal="12" path="0" offset="373" offsetend="378" sl="78" fileid="1" />
+              </BranchPoints>
+              <MethodPoint vc="41" upsid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="42" ec="1" el="99" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="1" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="47" visitedSequencePoints="47" numBranchPoints="6" visitedBranchPoints="6" sequenceCoverage="1" branchCoverage="1" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String crypto_algorithms.CustomSHA256::HashAlgorithm()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" upsid="102" ordinal="0" sl="102" sc="1" el="102" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="4" upsid="103" ordinal="1" sl="103" sc="1" el="103" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="104" ordinal="2" sl="104" sc="1" el="104" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="106" ordinal="3" sl="106" sc="1" el="106" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="107" ordinal="4" sl="107" sc="1" el="107" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="108" ordinal="5" sl="108" sc="1" el="108" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="109" ordinal="6" sl="109" sc="1" el="109" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="110" ordinal="7" sl="110" sc="1" el="110" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="111" ordinal="8" sl="111" sc="1" el="111" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="112" ordinal="9" sl="112" sc="1" el="112" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="113" ordinal="10" sl="113" sc="1" el="113" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="115" ordinal="11" sl="115" sc="1" el="115" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="130" upsid="117" ordinal="12" sl="117" sc="1" el="117" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="64" upsid="118" ordinal="13" sl="118" sc="1" el="118" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="64" upsid="120" ordinal="14" sl="120" sc="1" el="120" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="16" upsid="121" ordinal="15" sl="121" sc="1" el="121" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="16" upsid="122" ordinal="16" sl="122" sc="1" el="122" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="16" upsid="123" ordinal="17" sl="123" sc="1" el="123" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="48" upsid="125" ordinal="18" sl="125" sc="1" el="125" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="48" upsid="126" ordinal="19" sl="126" sc="1" el="126" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="48" upsid="127" ordinal="20" sl="127" sc="1" el="127" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="64" upsid="130" ordinal="21" sl="130" sc="1" el="130" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="64" upsid="131" ordinal="22" sl="131" sc="1" el="131" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="64" upsid="132" ordinal="23" sl="132" sc="1" el="132" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="64" upsid="133" ordinal="24" sl="133" sc="1" el="133" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="64" upsid="134" ordinal="25" sl="134" sc="1" el="134" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="64" upsid="135" ordinal="26" sl="135" sc="1" el="135" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="64" upsid="136" ordinal="27" sl="136" sc="1" el="136" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="64" upsid="137" ordinal="28" sl="137" sc="1" el="137" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="64" upsid="138" ordinal="29" sl="138" sc="1" el="138" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="64" upsid="139" ordinal="30" sl="139" sc="1" el="139" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="64" upsid="141" ordinal="31" sl="141" sc="1" el="141" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="143" ordinal="32" sl="143" sc="1" el="143" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="144" ordinal="33" sl="144" sc="1" el="144" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="145" ordinal="34" sl="145" sc="1" el="145" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="146" ordinal="35" sl="146" sc="1" el="146" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="147" ordinal="36" sl="147" sc="1" el="147" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="148" ordinal="37" sl="148" sc="1" el="148" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="149" ordinal="38" sl="149" sc="1" el="149" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="150" ordinal="39" sl="150" sc="1" el="150" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="154" ordinal="40" sl="154" sc="1" el="154" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="155" ordinal="41" sl="155" sc="1" el="155" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="156" ordinal="42" sl="156" sc="1" el="156" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="157" ordinal="43" sl="157" sc="1" el="157" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="158" ordinal="44" sl="158" sc="1" el="158" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="159" ordinal="45" sl="159" sc="1" el="159" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="160" ordinal="46" sl="160" sc="1" el="160" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" upsid="103" ordinal="5" path="1" offset="473" offsetend="8" sl="103" fileid="1" />
+                <BranchPoint vc="64" upsid="117" ordinal="3" path="1" offset="301" offsetend="103" sl="117" fileid="1" />
+                <BranchPoint vc="16" upsid="120" ordinal="0" path="0" offset="114" offsetend="116" sl="120" fileid="1" />
+                <BranchPoint vc="48" upsid="120" ordinal="1" path="1" offset="114" offsetend="139" sl="120" fileid="1" />
+                <BranchPoint vc="1" upsid="117" ordinal="2" path="0" offset="301" offsetend="306" sl="117" fileid="1" />
+                <BranchPoint vc="1" upsid="103" ordinal="4" path="0" offset="473" offsetend="478" sl="103" fileid="1" />
+              </BranchPoints>
+              <MethodPoint vc="47" upsid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="102" ec="1" el="160" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.UInt32 crypto_algorithms.CustomSHA256::Ch(System.UInt32,System.UInt32,System.UInt32)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="64" upsid="163" ordinal="0" sl="163" sc="1" el="163" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="64" upsid="164" ordinal="1" sl="164" sc="1" el="164" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="64" upsid="165" ordinal="2" sl="165" sc="1" el="165" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" upsid="0" p8:type="SequencePoint" ordinal="4" offset="4" sc="0" sl="163" ec="1" el="165" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.UInt32 crypto_algorithms.CustomSHA256::Maj(System.UInt32,System.UInt32,System.UInt32)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="64" upsid="168" ordinal="0" sl="168" sc="1" el="168" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="64" upsid="169" ordinal="1" sl="169" sc="1" el="169" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="64" upsid="170" ordinal="2" sl="170" sc="1" el="170" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" upsid="0" p8:type="SequencePoint" ordinal="5" offset="5" sc="0" sl="168" ec="1" el="170" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.UInt32 crypto_algorithms.CustomSHA256::LCSigma0(System.UInt32)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="48" upsid="173" ordinal="0" sl="173" sc="1" el="173" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="48" upsid="174" ordinal="1" sl="174" sc="1" el="174" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="48" upsid="175" ordinal="2" sl="175" sc="1" el="175" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" upsid="0" p8:type="SequencePoint" ordinal="6" offset="6" sc="0" sl="173" ec="1" el="175" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.UInt32 crypto_algorithms.CustomSHA256::LCSigma1(System.UInt32)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="48" upsid="178" ordinal="0" sl="178" sc="1" el="178" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="48" upsid="179" ordinal="1" sl="179" sc="1" el="179" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="48" upsid="180" ordinal="2" sl="180" sc="1" el="180" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" upsid="0" p8:type="SequencePoint" ordinal="7" offset="7" sc="0" sl="178" ec="1" el="180" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.UInt32 crypto_algorithms.CustomSHA256::UCSigma0(System.UInt32)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="64" upsid="183" ordinal="0" sl="183" sc="1" el="183" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="64" upsid="184" ordinal="1" sl="184" sc="1" el="184" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="64" upsid="185" ordinal="2" sl="185" sc="1" el="185" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" upsid="0" p8:type="SequencePoint" ordinal="8" offset="8" sc="0" sl="183" ec="1" el="185" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.UInt32 crypto_algorithms.CustomSHA256::UCSigma1(System.UInt32)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="64" upsid="188" ordinal="0" sl="188" sc="1" el="188" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="64" upsid="189" ordinal="1" sl="189" sc="1" el="189" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="64" upsid="190" ordinal="2" sl="190" sc="1" el="190" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" upsid="0" p8:type="SequencePoint" ordinal="9" offset="9" sc="0" sl="188" ec="1" el="190" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.UInt32 crypto_algorithms.CustomSHA256::S(System.UInt32,System.Int32)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1728" upsid="192" ordinal="0" sl="192" sc="1" el="192" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" upsid="0" p8:type="SequencePoint" ordinal="10" offset="10" sc="0" sl="192" ec="1" el="192" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.UInt32 crypto_algorithms.CustomSHA256::RotateLeft(System.UInt32,System.Int32)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" upsid="195" ordinal="0" sl="195" sc="1" el="195" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" upsid="196" ordinal="1" sl="196" sc="1" el="196" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" upsid="197" ordinal="2" sl="197" sc="1" el="197" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" upsid="0" p8:type="SequencePoint" ordinal="11" offset="11" sc="0" sl="195" ec="1" el="197" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.UInt32 crypto_algorithms.CustomSHA256::RotateRight(System.UInt32,System.Int32)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="576" upsid="200" ordinal="0" sl="200" sc="1" el="200" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="576" upsid="201" ordinal="1" sl="201" sc="1" el="201" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="576" upsid="202" ordinal="2" sl="202" sc="1" el="202" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" upsid="0" p8:type="SequencePoint" ordinal="12" offset="12" sc="0" sl="200" ec="1" el="202" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="0" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void crypto_algorithms.CustomSHA256::.ctor()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" upsid="16" ordinal="0" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="17" ordinal="1" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="18" ordinal="2" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="19" ordinal="3" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="20" ordinal="4" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="5" upsid="0" p8:type="SequencePoint" ordinal="13" offset="13" sc="0" sl="16" ec="1" el="20" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="25" visitedSequencePoints="25" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+          <FullName>crypto_algorithms.SHAConstants</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="0" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.UInt32[] crypto_algorithms.SHAConstants::get_InitialHashValues()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="1" upsid="10" ordinal="0" sl="10" sc="1" el="10" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" upsid="11" ordinal="1" sl="11" sc="1" el="11" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" upsid="12" ordinal="2" sl="12" sc="1" el="12" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" upsid="13" ordinal="3" sl="13" sc="1" el="13" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" upsid="14" ordinal="4" sl="14" sc="1" el="14" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" upsid="15" ordinal="5" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" upsid="16" ordinal="6" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="7" upsid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="10" ec="1" el="16" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="0" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="18" visitedSequencePoints="18" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.UInt32[] crypto_algorithms.SHAConstants::get_SHA256Constants()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="1" upsid="22" ordinal="0" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" upsid="23" ordinal="1" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" upsid="24" ordinal="2" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" upsid="25" ordinal="3" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" upsid="26" ordinal="4" sl="26" sc="1" el="26" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" upsid="27" ordinal="5" sl="27" sc="1" el="27" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" upsid="28" ordinal="6" sl="28" sc="1" el="28" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" upsid="29" ordinal="7" sl="29" sc="1" el="29" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" upsid="30" ordinal="8" sl="30" sc="1" el="30" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" upsid="31" ordinal="9" sl="31" sc="1" el="31" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" upsid="32" ordinal="10" sl="32" sc="1" el="32" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" upsid="33" ordinal="11" sl="33" sc="1" el="33" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" upsid="34" ordinal="12" sl="34" sc="1" el="34" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" upsid="35" ordinal="13" sl="35" sc="1" el="35" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" upsid="36" ordinal="14" sl="36" sc="1" el="36" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" upsid="37" ordinal="15" sl="37" sc="1" el="37" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" upsid="38" ordinal="16" sl="38" sc="1" el="38" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" upsid="39" ordinal="17" sl="39" sc="1" el="39" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="18" upsid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="22" ec="1" el="39" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+  </Modules>
+</CoverageSession>
